@@ -10,7 +10,7 @@ describe('workspace-project App', () => {
 
   it('should display welcome message', () => {
     page.navigateTo();
-    expect(page.getTitleText()).toEqual('ngx-mat-form-validation-library app is running!');
+    expect(page.getTitleText()).toEqual('ngx-mat-reactive-form-validation-library app is running!');
   });
 
   afterEach(async () => {

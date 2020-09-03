@@ -17,7 +17,13 @@
     "lib": [
       "es2018",
       "dom"
-    ]
+    ],
+    "paths": {
+      "ngx-mat-reactive-form-validation": [
+        "dist/ngx-mat-reactive-form-validation/ngx-mat-reactive-form-validation",
+        "dist/ngx-mat-reactive-form-validation"
+      ]
+    }
   },
   "angularCompilerOptions": {
     "fullTemplateTypeCheck": true,
